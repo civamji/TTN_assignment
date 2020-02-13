@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Area of Traingle - Simple JavaScript Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <script>
+     
+  var employee = [
+                        {name : 'vishnu',age : 60,salary : 12500,dob: '12/11/1957'},
+                        {name : 'mohit',age : 34,salary : 6000,dob: '8/07/1985'},
+                        {name : 'vishal',age : 15,salary : 5000,dob: '07/02/1985'},
+                        {name : 'ankit',age : 35,salary : 65000,dob: '1/01/1991'},
+                        {name : 'shubham sharma',age : 22,salary : 999,dob: '02/07/1995'},
+                        {name : 'shivam sharma',age : 21,salary : 950,dob: '02/07/1995'}
+
+                        ];
+ 
+
+// part 2
+
+
+var fil=employee.filter(function(S)
+{
+    return S.salary>5000;
+});
+document.write("<b>All employees with salary greater than 5k</b><br>");
+for(var i in fil)
+{
+    document.write("Name: "+fil[i].name + "<br>");
+
+}
+
+
+//part 3
+
+document.write("<br><br><br> Grouping detail of employee by age</b></br>");
+var fil1 = employee.filter(function(S)
+{
+    return S.age<=20;
+});
+
+document.write("<u>Name less than 20: </u><br>");
+for(var l in fil1)
+{
+    document.write("Name: "+fil1[l].name + "<br>");
+}
+var fil2=employee.filter(function(S)
+{
+
+ return(S.age>20 && S.age<30);
+});
+document.write("<u>Name of employee with age between 20 and 30: </u><br>");
+for(var k in fil2)
+{
+    document.write(fil2[k].name +"<br>");
+}
+
+var fil3=employee.filter(function(S)
+{
+
+ return S.age>30;
+});
+document.write("<u>Name of employee age greater than 30: </u><br>");
+for(var j in fil3)
+{
+    document.write(fil3[j].name +"<br>");
+}
+     document.write("<br><br><b>employees with salary less than 1k and age greater than 20:</b><br>");
+     var fil4=employee.filter(function(S){
+        return (S.salary<1000 && S.age>20);
+     });
+for(var o in fil4)
+{
+    document.write("name:"+fil4[o].name +" salary before increment: "+fil4[o].salary +"<br>");
+    fil4[o].salary=fil4[o].salary*5;
+
+
+     document.write("<b>Name "+ fil4[o].name+" Salary after increment "+ fil4[o].salary+"</b><br>");
+}   
+    </script>
+
+</head>
+<body>
+ </body>
+</html>

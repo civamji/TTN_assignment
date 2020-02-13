@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Area of Traingle - Simple JavaScript Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Load Bootstrap library for better UI look & feel -->
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <script>
+      function findSimpleInterest(){
+        var Amount,Rate,SI,Year;
+         Amount = document.getElementById("read_amount").value;
+        Rate= document.getElementById("read_rate").value;
+        Year = document.getElementById("read_year").value;
+        SI = (Amount*Rate*Year)/100;
+        document.getElementById("result").value = SI;
+      }
+    </script>
+</head>
+<body>
+  <div class="container">
+    <br />
+      <h2>Program to find simple interest</h2>
+    <br />
+    <div class="form-group">
+      <label for="read_amount">Amount:</label>
+      <input type="text" class="form-control" id="read_amount" >
+    </div>
+    <div class="form-group">
+      <label for="read_rate">Interest Rate:</label>
+      <input type="text" class="form-control req" id="read_rate" >
+    </div>
+    <div class="form-group">
+      <label for="read_year">No.of years</label>
+      <input type="text" class="form-control req" id="read_year" >
+    </div>
+    <button type="submit" class="btn btn-default" onclick="findSimpleInterest()">Submit</button>
+    <div class="form-group">
+      <label for="result">Simple Interest:</label>
+      <input type="text" class="form-control req" id="result" readonly >
+    </div>
+    
+  </div>
+</body>
+</html>

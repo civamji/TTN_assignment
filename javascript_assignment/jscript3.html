@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Area of Traingle - Simple JavaScript Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <script>
+     
+function find_areaofcircle()
+{
+  var area,r;
+  r=document.getElementById("radius").value;
+  if(r=="")
+  {
+    alert("Enter some value");
+  }
+  else
+  {
+  area=3.14*r*r;
+
+   alert(area +" is the area of inputed radius circle");
+  }
+}
+    </script>
+</head>
+<body>
+  Enter radius of a circle: 
+   <input type="text" class="form-control" id="radius" >
+   <br>
+    <button type="submit" class="btn btn-default" onclick="find_areaofcircle()">Submit</button>
+</body>
+</html>
