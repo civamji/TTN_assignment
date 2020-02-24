@@ -1,38 +1,41 @@
 
-import java.lang.*;
+import java.io.IOException;
+import java.util.Random;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
-public class q7 implements Runnable
-{
-    Thread t;
-    public void run()
-    {
-        for (int i = 0; i < 4; i++)
-        {
-            System.out.println(Thread.currentThread().getName()
-                    + " " + i);
-            try
-            {
-                // thread to sleep for 1000 milliseconds
-                Thread.sleep(1000);
+
+public class q7 {
+
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newCachedThreadPool();
+
+        Future<Integer> future = executor.submit(new Callable<Integer>() {
+
+            @Override
+            public Integer call() throws Exception {
+                Random random = new Random();
+                int number=random.nextInt(100);
+
+                return number;
             }
 
-            catch (Exception e)
-            {
-                System.out.println(e);
-            }
+        });
+
+        executor.shutdown();
+
+        try {
+            System.out.println("Result is: " + future.get());
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            IOException ex = (IOException) e.getCause();
+
+            System.out.println(ex.getMessage());
         }
     }
 
-    public static void main(String[] args) throws Exception
-    {
-        Thread t = new Thread(new q7());
-
-        // call run() function
-        t.start();
-
-        Thread t2 = new Thread(new q7());
-
-        // call run() function
-        t2.start();
-    }
 }
