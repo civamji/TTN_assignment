@@ -1,0 +1,45 @@
+plugins {
+    id 'java'
+}
+//creating custom plugin
+
+apply plugin:A
+task abc(type :Jar){
+    println "hello"
+}
+class A implements Plugin<Project>
+{
+    @Override
+    void apply(Project target){
+        target.task("myTask"){
+            doLast {
+                println new Date()
+            }
+        }
+    }
+}
+myTask.dependsOn(abc)
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        compile group: 'joda-time', name: 'joda-time', version: '2.10.5'
+        runtime group: 'commons-collections' ,name: 'commons-collections' ,version: '3.2.2'
+        testRuntime group: 'commons-lang' ,name: 'commons-lang' ,version: '2.5'
+    }
+
+jar{
+        manifest.attributes('Main-class' : 'hello')
+
+}
+wrapper{
+    version='4.2.1'
+}
