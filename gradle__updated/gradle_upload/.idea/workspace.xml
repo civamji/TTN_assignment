@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cab007d8-c4ad-4068-9991-63b3f4bab5b7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Civam_gradle" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="ProjectId" id="1YZIMb0ybtELiaUQhsaKkSQACAf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Downloads/demo" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.hello">
+    <configuration name="hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello" />
+      <module name="Civam_gradle.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Music [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.hello" />
+        <item itemvalue="Gradle.Music [jar]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cab007d8-c4ad-4068-9991-63b3f4bab5b7" name="Default Changelist" comment="" />
+      <created>1583143642504</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583143642504</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="166" y="27" width="1024" height="702" key="#Project_Structure" timestamp="1583144676337">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="166" y="27" width="1024" height="702" key="#Project_Structure/0.27.1366.702@0.27.1366.702" timestamp="1583144676337" />
+    <state x="141" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583143802069">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="141" y="35" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.702@0.27.1366.702" timestamp="1583143802069" />
+    <state x="399" y="179" width="558" height="396" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583146657185">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="399" y="179" width="558" height="396" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1366.702@0.27.1366.702" timestamp="1583146657185" />
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl" timestamp="1583145799366">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state x="466" y="135" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.702@0.27.1366.702" timestamp="1583145799366" />
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom" timestamp="1583144936755">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.bottom/0.27.1366.702@0.27.1366.702" timestamp="1583144936755" />
+    <state width="1320" height="163" key="GridCell.Tab.0.center" timestamp="1583144936752">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.center/0.27.1366.702@0.27.1366.702" timestamp="1583144936752" />
+    <state width="1320" height="163" key="GridCell.Tab.0.left" timestamp="1583144936750">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.left/0.27.1366.702@0.27.1366.702" timestamp="1583144936750" />
+    <state width="1320" height="163" key="GridCell.Tab.0.right" timestamp="1583144936753">
+      <screen x="0" y="27" width="1366" height="702" />
+    </state>
+    <state width="1320" height="163" key="GridCell.Tab.0.right/0.27.1366.702@0.27.1366.702" timestamp="1583144936753" />
+  </component>
+</project>
